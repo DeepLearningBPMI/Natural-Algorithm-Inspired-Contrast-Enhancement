@@ -17,9 +17,9 @@ To run the code in this repository, you need to have Python installed along with
 - brisque
 
 You can install these libraries using pip:
-```bash
+
 pip install numpy opencv-python matplotlib tqdm scikit-image brisque
-```bash
+
 ## Usage
 
 python enhance_contrast.py path/to/your/image.jpg --fitness_function brisque --number_iterations 30 --sa_enable True --save_lut True --save_pheromone_map True
