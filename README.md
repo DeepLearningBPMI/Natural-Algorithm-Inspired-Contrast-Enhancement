@@ -32,7 +32,7 @@ Arguments:
 - save_lut: Save the LUT after processing ('True' or 'False', default is 'False').
 - save_pheromone_map: Save the pheromone map if applicable ('True' or 'False', default is 'False').
 
-Example images:
+Example images in the images Folder
 
 
 ## Citing This Work
