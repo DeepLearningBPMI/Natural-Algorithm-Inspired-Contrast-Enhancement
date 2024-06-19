@@ -1,6 +1,6 @@
 # Natural Algorithm Inspired Contrast Enhancement
 
-This repository contains the implementation of image contrast enhancement techniques using a hybrid approach that integrates Ant Colony Optimization (ACO), Genetic Algorithm (GA), and Simulated Annealing (SA). The algorithms have been designed to improve the visual quality of images by enhancing their contrast. This work is based on the work of Hoseini et al. 2013, "Efficient contrast enhancement of images using hybrid ant colony optimisation, genetic algorithm, and simulated annealing'. The original code is written in Matlab and this has been altered to Python.
+This repository contains the implementation of image contrast enhancement techniques using a hybrid approach that integrates Ant Colony Optimization (ACO), Genetic Algorithm (GA), and Simulated Annealing (SA). The algorithms have been designed to improve the visual quality of images by enhancing their contrast. This work is based on the work of Hoseini et al. 2013, "Efficient contrast enhancement of images using hybrid ant colony optimisation, genetic algorithm, and simulated annealing'. The original code is written in Matlab and this has been altered to Python. Also, has the Fitness function been updated with the use of Blind/Referenceless Image Spatial Quality Evaluator (BRISQUE). 
 
 ## Overview
 
