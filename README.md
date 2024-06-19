@@ -1,6 +1,6 @@
 # Natural Algorithm Inspired Contrast Enhancement
 
-This repository contains the implementation of image contrast enhancement techniques using a hybrid approach that integrates Ant Colony Optimization (ACO), Genetic Algorithm (GA), and Simulated Annealing (SA). The algorithms have been designed to improve the visual quality of images by enhancing their contrast.
+This repository contains the implementation of image contrast enhancement techniques using a hybrid approach that integrates Ant Colony Optimization (ACO), Genetic Algorithm (GA), and Simulated Annealing (SA). The algorithms have been designed to improve the visual quality of images by enhancing their contrast. This work is based on the work of Hoseini et al. 2013, "Efficient contrast enhancement of images using hybrid ant colony optimisation, genetic algorithm, and simulated annealing'
 
 ## Overview
 
@@ -34,23 +34,6 @@ Arguments:
 
 Citing This Work
 If you use this code or any part of it in your research, please cite the following papers:
-@article{hoseini2013efficient,
-  title={Efficient contrast enhancement of images using hybrid ant colony optimisation, genetic algorithm, and simulated annealing},
-  author={Hoseini, Pourya and Shayesteh, Mahrokh G},
-  journal={Digital Signal Processing},
-  volume={23},
-  number={3},
-  pages={879--893},
-  year={2013},
-  publisher={Elsevier}
-}
-
-@inproceedings{hoseini2010hybrid,
-  title={Hybrid ant colony optimization, genetic algorithm, and simulated annealing for image contrast enhancement},
-  author={Hoseini, Pourya and Shayesteh, Mahrokh G},
-  booktitle={IEEE Congress on Evolutionary Computation},
-  pages={1--6},
-  year={2010},
-  organization={IEEE}
-}
+- Hoseini, P., & Shayesteh, M. G. (2013). Efficient contrast enhancement of images using hybrid ant colony optimisation, genetic algorithm, and simulated annealing. Digital Signal Processing, 23(3), 879-893. Publisher: Elsevier.
+- Hoseini, P., & Shayesteh, M. G. (2010). Hybrid ant colony optimization, genetic algorithm, and simulated annealing for image contrast enhancement. In IEEE Congress on Evolutionary Computation (pp. 1-6). Organization: IEEE.
 
