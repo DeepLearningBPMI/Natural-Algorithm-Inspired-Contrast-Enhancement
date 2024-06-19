@@ -22,7 +22,7 @@ pip install numpy opencv-python matplotlib tqdm scikit-image brisque
 
 ## Usage
 
-python enhance_contrast.py path/to/your/image.jpg --fitness_function brisque --number_iterations 30 --sa_enable True --save_lut True --save_pheromone_map True
+python image-enhance.py path/to/your/image.jpg --fitness_function brisque --number_iterations 30 --sa_enable True --save_lut True --save_pheromone_map True
 
 Arguments:
 - image_path: Path to the image file.
