@@ -24,13 +24,13 @@ pip install numpy opencv-python matplotlib tqdm scikit-image brisque
 
 python enhance_contrast.py path/to/your/image.jpg --fitness_function brisque --number_iterations 30 --sa_enable True --save_lut True --save_pheromone_map True
 
-Arguments
-image_path: Path to the image file.
--fitness_function: Select the fitness function ('brisque' or 'classic').
--number_iterations: Number of iterations for processing (default is 30).
--sa_enable: Enable simulated annealing ('True' or 'False', default is 'False').
--save_lut: Save the LUT after processing ('True' or 'False', default is 'False').
--save_pheromone_map: Save the pheromone map if applicable ('True' or 'False', default is 'False').
+Arguments:
+- image_path: Path to the image file.
+- fitness_function: Select the fitness function ('brisque' or 'classic').
+- number_iterations: Number of iterations for processing (default is 30).
+- sa_enable: Enable simulated annealing ('True' or 'False', default is 'False').
+- save_lut: Save the LUT after processing ('True' or 'False', default is 'False').
+- save_pheromone_map: Save the pheromone map if applicable ('True' or 'False', default is 'False').
 
 Citing This Work
 If you use this code or any part of it in your research, please cite the following papers:
