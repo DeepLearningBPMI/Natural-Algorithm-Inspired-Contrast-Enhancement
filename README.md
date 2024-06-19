@@ -32,6 +32,9 @@ Arguments:
 - save_lut: Save the LUT after processing ('True' or 'False', default is 'False').
 - save_pheromone_map: Save the pheromone map if applicable ('True' or 'False', default is 'False').
 
+Example images:
+
+
 ## Citing This Work
 If you use this code or any part of it in your research, please cite the following papers:
 - Hoseini, P., & Shayesteh, M. G. (2013). Efficient contrast enhancement of images using hybrid ant colony optimisation, genetic algorithm, and simulated annealing. Digital Signal Processing, 23(3), 879-893. Publisher: Elsevier.
