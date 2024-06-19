@@ -68,7 +68,7 @@ def calculate_fitness(input_image, lut_current, fitness_function):
             # Apply the lookup table to the current channel
             im_current_channel = cv2.LUT(channel, lut_current)
 
-            # Calculate standard deviation for the current channel
+            # Calculate the standard deviation for the current channel
             std_dev = np.std(im_current_channel)
 
             # Calculate entropy for the current channel
@@ -80,7 +80,7 @@ def calculate_fitness(input_image, lut_current, fitness_function):
             # Calculate fitness for the current channel and add it to the list
             fitness_channel = (std_dev * entropy * mean_sobel) ** (1/3)
 
-            # Now, fitness_values contains the fitness score for each of the three channels`
+            # Now, fitness_values contains the fitness score for each of the three channels
             fitness_values.append(fitness_channel)
         fitness = np.mean(fitness_values)
     
